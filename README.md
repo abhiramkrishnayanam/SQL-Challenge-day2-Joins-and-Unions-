@@ -22,8 +22,11 @@ The `INNER JOIN` returns rows when there is a match in both tables.
 **Syntax:**
 
 SELECT columns
+
 FROM table1
+
 INNER JOIN table2
+
 ON table1.column = table2.column;
 
 ### Left Join
@@ -32,8 +35,11 @@ The LEFT JOIN returns all rows from the left table and the matched rows from the
 **Syntax:**
 
 SELECT columns
+
 FROM table1
+
 LEFT JOIN table2
+
 ON table1.column = table2.column;
 
 ### Right Join
@@ -43,8 +49,11 @@ The RIGHT JOIN returns all rows from the right table and the matched rows from t
 **Syntax:**
 
 SELECT columns
+
 FROM table1
+
 RIGHT JOIN table2
+
 ON table1.column = table2.column;
 
 ### Full Outer Join
@@ -54,9 +63,13 @@ The FULL OUTER JOIN returns all rows when there is a match in either table. If t
 **Syntax:**
 
 SELECT columns
+
 FROM table1
+
 FULL OUTER JOIN table2
+
 ON table1.column = table2.column;
+
 
 ## SQL UNION
 
@@ -68,7 +81,9 @@ The UNION operator combines the result sets of two queries and removes duplicate
 **Syntax:**
 
 SELECT columns FROM table1
+
 UNION
+
 SELECT columns FROM table2;
 
 ### UNION ALL
@@ -78,6 +93,8 @@ The UNION ALL operator combines the result sets of two queries but includes all 
 **Syntax:**
 
 SELECT columns FROM table1
+
 UNION ALL
+
 SELECT columns FROM table2;
 
